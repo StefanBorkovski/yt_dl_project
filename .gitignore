@@ -1,0 +1,7 @@
+*.srt
+*secrets*
+
+venv/
+dep/
+audio_files/
+__pycache__/

@@ -1,0 +1,18 @@
+{
+    "channels": [
+        ["@AngeloColomboFi", "https://www.youtube.com/@AngeloColomboFi"],
+        ["@DragosComedy", "https://www.youtube.com/@DragosComedy"],
+        ["@jameshoffmann", "https://www.youtube.com/@jameshoffmann"],
+        ["@DaveSearle", "https://www.youtube.com/@DaveSearle"],
+        ["@malcolmmoore", "https://www.youtube.com/@malcolmmoore"]
+    ],
+    "configuration": {
+        "captions_language": "en",
+        "min_audio_duration_M": 10, 
+        "max_audio_duration_M": 30,
+        "min_wpm": 200,
+        "max_download_H_per_channel": 1,
+        "max_downloaded_videos_per_channel": 9,
+        "min_successful_download_ration": 0.05
+    }
+}

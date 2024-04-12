@@ -1,0 +1,16 @@
+format: 'bestaudio/best'
+format-sort: [
+  'flac'
+  ]
+audio_channels: 1
+postprocessors: [{
+  'key': 'FFmpegExtractAudio',
+  'preferredcodec': 'flac'
+  }]
+postprocessor_args: [
+  '-ar', '16000',
+  '-ac', '1'
+  ]
+prefer_ffmpeg: True
+ffmpeg_location: '/usr/bin/ffmpeg'
+outtmpl: '/tmp/audio_files/%(id)s.%(ext)s'
